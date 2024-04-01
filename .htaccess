@@ -1,0 +1,18 @@
+# Turn on rewrite engine
+RewriteEngine On
+
+# Deny access to .env file for security
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Allow cross-origin requests (CORS) for all routes
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Redirect all non-file and non-directory requests not starting with src/app/ to src/app/layout.php
+RewriteRule !^src/app/ src/app/layout.php [QSA,L]

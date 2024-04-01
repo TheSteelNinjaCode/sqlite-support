@@ -1,0 +1,7 @@
+{
+  "projectName": "sqlite-support",
+  "tailwindcss": true,
+  "websocket": false,
+  "version": "1.8.19",
+  "excludeFiles": []
+}

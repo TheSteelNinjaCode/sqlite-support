@@ -1,0 +1,20 @@
+[
+    ".\\(public)\\adds\\index.php",
+    ".\\(public)\\customers\\index.php",
+    ".\\(public)\\layout.php",
+    ".\\api\\api.php",
+    ".\\assets\\images\\prisma-php.png",
+    ".\\css\\index.css",
+    ".\\css\\styles.css",
+    ".\\css\\tailwind.css",
+    ".\\favicon.ico",
+    ".\\index.php",
+    ".\\js\\index.js",
+    ".\\layout.php",
+    ".\\metadata.php",
+    ".\\not-found.php",
+    ".\\users\\id\\index.php",
+    ".\\users\\index.php",
+    ".\\users\\layout.php",
+    ".\\_components\\navbar.php"
+]
